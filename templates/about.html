@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0; height: 100vh;
+  background: linear-gradient(45deg, #ff828a, #ff6fe0);
+  display: flex; align-items: center; justify-content: center;
+  font-family: Arial;
+}
+h1 { color: rgb(0, 0, 0); font-size: 3em; text-shadow: 2px 2px 10px rgba(0,0,0,0.3); }
+</style>
+</head>
+<body>
+  <h1>🌟 ДАЛЬШЕ ПОДАРОК 🌟</h1>
+<button onclick="window.location.href='/bonus'"
+        style="
+  /* 📍 ПОЗИЦИЯ */
+  position: absolute; 
+  bottom: 50px;      /* ↑ снизу: 20px=выше, 100px=ниже */
+  left: 50%;         /* ← влево/вправо: 20%=влево, 80%=вправо */
+  transform: translateX(-50%);  /* центр по горизонтали */
+  
+  /* 📏 РАЗМЕР */
+  padding: 15px 40px;    /* высота x ширина: 20px 60px = больше */
+  font-size: 1.3em;      /* текст: 1em=маленький, 2em=большой */
+  
+  /* 🎨 СТИЛИ */
+  background: linear-gradient(45deg, #ffc664, #ffff9f); 
+  color: rgb(0, 0, 0); border: none; border-radius: 50px; cursor: pointer;
+  box-shadow: 0 10px 30px rgba(255,107,157,0.4);
+">
+  БОНУС 🌸 
+</button>
+</body>
+</html>
