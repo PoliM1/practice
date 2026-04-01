@@ -1,0 +1,1 @@
+BITRIX_WEBHOOK = "https://b24-rvt9hx.bitrix24.ru/rest/1/seft6wlsz3m5fogn/"
